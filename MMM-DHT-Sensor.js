@@ -5,6 +5,7 @@
  */
 Module.register('MMM-DHT-Sensor', {
 
+    requiresVersion: "2.1.0",
     defaults: {
         sensorPIN: 3,
         sensorType: 11, // 11 OR 22
